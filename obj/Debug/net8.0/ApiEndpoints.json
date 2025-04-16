@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "FornecedorIA.FornecedorController",
+    "Method": "AvaliarModelo",
+    "RelativePath": "api/Fornecedor/avaliar-modelo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "caminhoTesteCsv",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FornecedorIA.FornecedorController",
+    "Method": "CarregarModelo",
+    "RelativePath": "api/Fornecedor/carregar-modelo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "caminhoCsv",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FornecedorIA.FornecedorController",
+    "Method": "Classificar",
+    "RelativePath": "api/Fornecedor/classificar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "FornecedorIA.FornecedorData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FornecedorIA.FornecedorController",
+    "Method": "UploadCsv",
+    "RelativePath": "api/Fornecedor/upload-csv",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Arquivo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

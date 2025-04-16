@@ -1,0 +1,6 @@
+@FornecedorIA_HostAddress = http://localhost:5197
+
+GET {{FornecedorIA_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
